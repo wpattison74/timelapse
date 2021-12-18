@@ -7,4 +7,4 @@ Current specs:  Raspberry Pi Zero W (Rev. 1) and the Pi Camera Module
 2. Setup timelapse.py as a service. (Adjust WAIT_TIME in script for frequency.)
 3. Use 'convert_to_mp4.sh' to process all the images into an MP4.
 
-Output is roughly 700 MB's over 24 hours for an interval of 60 (1 photo per minute).
+Output is ~1.1MB/photo when at 1920x1080 resolution.
